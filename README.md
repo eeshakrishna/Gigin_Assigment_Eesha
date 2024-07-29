@@ -9,6 +9,7 @@ Currently, two official plugins are available:
 
 
 Steps to run the project:
-1. Install node js and npm
-2. Run 'npm install'
+1. Download the project
+2. Install node js and npm 
+2. Run 'npm install' at the root
 3. Run 'npm run dev' and click on the local host url
