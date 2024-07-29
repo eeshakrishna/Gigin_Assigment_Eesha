@@ -1,0 +1,295 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdc8f9; /* Light background color for the entire page */
+  color: #003366; /* Dark blue color for text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Home Page Styles */
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.home-heading {
+  color: #003366; /* Dark blue for heading */
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.home-nav {
+  margin-top: 20px;
+}
+
+.home-nav-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.home-nav-item {
+  margin: 10px 0;
+}
+
+.home-nav-link {
+  text-decoration: none;
+}
+
+.home-nav-button {
+  background-color: #003366; /* Dark blue for button background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.home-nav-button:hover {
+  background-color: #002244; /* Slightly darker blue on hover */
+}
+
+.home-nav-button:active {
+  background-color: #001122; /* Even darker blue on click */
+  transform: scale(0.98);
+}
+
+/* SearchForm Page Styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 20px;
+}
+
+.heading {
+  color: #003366; /* Dark blue for heading */
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.form {
+  background-color: #e6e6ff; /* Light purple background for form */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #003366;
+  border-radius: 5px;
+  color: #003366; /* Dark text inside input */
+  background-color: white; /* White background inside input */
+}
+
+.button {
+  background-color: #003366; /* Dark blue for button background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+  background-color: #002244; /* Slightly darker blue on hover */
+}
+
+.button:active {
+  background-color: #001122; /* Even darker blue on click */
+  transform: scale(0.98);
+}
+
+.error {
+  color: red;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.result-item {
+  font-size: 1.2em;
+  color: #003366; /* Dark blue for result text */
+}
+
+/* BreedPage Styles */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 20px;
+}
+
+.home-heading {
+  color: #003366; /* Dark blue for heading */
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #003366;
+  border-radius: 5px;
+  color: #003366; /* Dark text inside input */
+  background-color: white; /* White background inside input */
+}
+
+button {
+  background-color: #003366; /* Dark blue for button background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #002244; /* Slightly darker blue on hover */
+}
+
+button:active {
+  background-color: #001122; /* Even darker blue on click */
+  transform: scale(0.98);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+li {
+  font-size: 1.2em;
+  color: #003366; /* Dark blue for breed names */
+}
+
+/* PetDetails Page Styles */
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #003366; /* Dark blue for heading */
+}
+
+form {
+  background-color: #e6e6ff; /* Light purple background for form */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+label {
+  color: #003366; /* Dark blue for label text */
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #003366;
+  border-radius: 5px;
+  color: #003366; /* Dark text inside input */
+  background-color: white; /* White background inside input */
+}
+
+button {
+  background-color: #003366; /* Dark blue for button background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #002244; /* Slightly darker blue on hover */
+}
+
+button:active {
+  background-color: #001122; /* Even darker blue on click */
+  transform: scale(0.98);
+}
+
+h2 {
+  color: #003366; /* Dark blue for pet name */
+}
+
+p {
+  color: #003366; /* Dark blue for paragraph text */
+}
+
+img {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+img[alt] {
+  display: block;
+}
+
+/* PetListPage Styles */
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #003366; /* Dark blue for heading */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+li {
+  font-size: 1.2em;
+  color: #003366; /* Dark blue for pet details */
+  margin-bottom: 20px;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 5px;
+}
